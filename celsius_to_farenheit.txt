@@ -1,0 +1,6 @@
+def con_cel_to_far(celsius):
+    return 1.8*celsius + 32
+
+
+ans=list(map(con_cel_to_far,map(float,input("Enter temp in celsius :").split())))
+print(ans ,end= " ")
