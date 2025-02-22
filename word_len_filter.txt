@@ -1,0 +1,5 @@
+n = int(input("Enter filtration length :"))
+names = list(input("Enter names : ").split())
+
+updated_names=list(filter( lambda x:len(x)>n,names))
+print(updated_names)
